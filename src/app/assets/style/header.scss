@@ -1,0 +1,19 @@
+.nav {
+  background: #607D8B;
+  height: 30px;
+  padding-left: 50px;
+
+  a {
+    display: inline-block;
+    height: 22px;
+    line-height: 22px;
+    color: #fff;
+    padding: 0 10px;
+    border-radius: 2px;
+    margin: 4px 0;
+
+    &.active {
+      background: #455c67;
+    }
+  }
+}
